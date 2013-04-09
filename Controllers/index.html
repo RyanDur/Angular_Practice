@@ -3,14 +3,35 @@
   <head>
     <title>AngularJS Practice | Controllers</title>
     <link rel="stylesheet" href="vendor/foundation-min.css" />
+    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
     <div>
-      http://egghead.io/video/angularjs-binding/
-      http://foundation.zurb.com/docs/
+      <p>http://egghead.io/video/angularjs-binding/</p>
+      <p>http://foundation.zurb.com/docs/</p>
     </div>
 
     <div ng-app="">
+      <input type="text" ng-model="data.message"/>
+      <h1>{{data.message + " World"}}</h1>
+      <div class="{{data.message}}">
+        wrap me with a foundation component
+      </div>
+
+      <div ng-controller="FirstCtrl">
+        <h1>{{data.message + " World"}}</h1>
+        <div class="{{data.message}}">
+          wrap me with a foundation component
+        </div>
+      </div>
+
+      <div ng-controller="NextCtrl">
+        <h1>{{data.message + " World"}}</h1>
+        <div class="{{data.message}}">
+          wrap me with a foundation component
+        </div>
+      </div>
+
     </div>
 
     <script type="text/javascript" src="vendor/components/angular/angular.js"></script>
