@@ -3,17 +3,87 @@
   <head>
     <title>AngularJS Practice | The Dot</title>
     <link rel="stylesheet" href="vendor/foundation-min.css" />
-    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
-    <div>
-      <p>http://egghead.io/video/angularjs-the-dot/</p>
-      <p>http://foundation.zurb.com/docs/</p>
-    </div>
-
     <div ng-app="">
+      <div>
+        <p><a href="http://egghead.io/video/angularjs-the-dot/" target="_blank">angularjs-the-dot</a></p>
+        <p><a href="http://foundation.zurb.com/docs/" target="_blank">foundation docs</a></p>
+      </div>
+
+      <div>
+        <p>
+          <div ng-controller="ZeroCtrl">
+            <h4>Root</h4>
+            {{some.message + " World"}}
+          </div>
+        </p>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <div>
+        <p>
+          <h4>Root</h4>
+          <input type="text" ng-model="data.message" />
+          <h1>{{data.message}}</h1>
+          <div ng-controller="FirstCtrl">
+            <h4>First</h4>
+            <input type="text" ng-model="data.message" />
+            <h1>{{data.message}}</h1>
+          </div>
+          <div ng-controller="SecondCtrl">
+            <h4>Second</h4>
+            <input type="text" ng-model="data.message" />
+            <h1>{{data.message}}</h1>
+          </div>
+        </p>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <div>
+        <p>
+          <h4>Root</h4>
+          <input type="text" ng-model="message" />
+          <h1>{{message}}</h1>
+          <div ng-controller="FirstCtrl">
+            <h4>First</h4>
+            <input type="text" ng-model="message" />
+            <h1>{{message}}</h1>
+          </div>
+          <div ng-controller="SecondCtrl">
+            <h4>Second</h4>
+            <input type="text" ng-model="message" />
+            <h1>{{message}}</h1>
+          </div>
+        </p>
+      </div>
+
+      <br/>
+      <br/>
+      <br/>
+      <div>
+        <p>
+          <h4>Root</h4>
+          <input type="text" ng-model="moreData.message" />
+          <h1>{{moreData.message}}</h1>
+          <div ng-controller="ThirdCtrl">
+            <h4>First</h4>
+            <input type="text" ng-model="moreData.message" />
+            <h1>{{moreData.message}}</h1>
+          </div>
+          <div ng-controller="FourthCtrl">
+            <h4>Second</h4>
+            <input type="text" ng-model="moreData.message" />
+            <h1>{{moreData.message}}</h1>
+          </div>
+        </p>
+      </div>
+
     </div>
 
     <script type="text/javascript" src="vendor/components/angular/angular.js"></script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
