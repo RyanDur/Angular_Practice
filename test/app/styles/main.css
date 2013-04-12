@@ -1,0 +1,52 @@
+/*
+Syntax error: File to import not found or unreadable: sass-bootstrap/lib/bootstrap.
+              Load paths:
+                /Users/Thoughtworks/CoachDePhillips/Angular_Practice/test/app/styles
+                /Users/Thoughtworks/CoachDePhillips/Angular_Practice/test/app/styles
+        on line 1 of /Users/Thoughtworks/CoachDePhillips/Angular_Practice/test/app/styles/main.scss
+
+1: @import "sass-bootstrap/lib/bootstrap";
+
+Backtrace:
+/Users/Thoughtworks/CoachDePhillips/Angular_Practice/test/app/styles/main.scss:1
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/import_node.rb:67:in `import'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/import_node.rb:37:in `css_import?'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/tree/root_node.rb:20:in `render'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/engine.rb:315:in `_render'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/engine.rb:262:in `render'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:341:in `update_stylesheet'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:203:in `update_stylesheets'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `each'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/plugin.rb:81:in `update_stylesheets'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:425:in `watch_or_update'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:307:in `process_result'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/gems/sass-3.2.7/bin/sass:9
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/bin/sass:19:in `load'
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/bin/sass:19
+/Users/Thoughtworks/.rvm/gems/ruby-1.8.7-p371/bin/ruby_noexec_wrapper:14
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: sass-bootstrap/lib/bootstrap.\A               Load paths:\A                 /Users/Thoughtworks/CoachDePhillips/Angular_Practice/test/app/styles\A                 /Users/Thoughtworks/CoachDePhillips/Angular_Practice/test/app/styles\A         on line 1 of /Users/Thoughtworks/CoachDePhillips/Angular_Practice/test/app/styles/main.scss\A \A 1: @import \"sass-bootstrap/lib/bootstrap\";"; }
